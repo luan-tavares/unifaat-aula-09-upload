@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Upload de Arquivos</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Upload de Arquivos</h1>
+
+        <div id="dropZone" class="drop-zone">
+            <p>Arraste e solte um arquivo aqui ou clique para selecionar</p>
+            <input type="file" id="fileInput" hidden />
+        </div>
+
+        <div id="uploadStatus" class="hidden"></div>
+        <div class="progress" id="uploadProgress">
+            <div class="bar" id="uploadBar"></div>
+        </div>
+
+
+        <div id="uploadStatus" class="hidden"></div>
+
+        <h2>Arquivos disponíveis</h2>
+        <ul id="fileList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

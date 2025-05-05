@@ -1,0 +1,21 @@
+{
+    "name": "unifaat-aula-09-upload",
+    "version": "1.0.0",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "type": "module",
+    "author": "Luan Tavares",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "chalk": "^5.4.1",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "g": "^2.0.1",
+        "multer": "^1.4.5-lts.2",
+        "nodemon": "^3.1.10"
+    }
+}

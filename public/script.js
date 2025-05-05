@@ -49,7 +49,7 @@ function handleUpload(file) {
     const progress = document.getElementById("uploadProgress");
     const bar = document.getElementById("uploadBar");
 
-    xhr.open("POST", "/upload");
+    xhr.open("POST", "/aula-09/upload");
 
     // Mostrar progresso
     xhr.upload.onprogress = (e) => {
@@ -85,7 +85,7 @@ function handleUpload(file) {
 
 async function fetchFileList() {
     try {
-        const res = await fetch("/storage/files/");
+        const res = await fetch("/aula-09/fetch");
         if (!res.ok) throw new Error("Erro ao buscar arquivos.");
         const files = await res.json();
 
